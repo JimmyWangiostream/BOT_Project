@@ -1,6 +1,6 @@
 # BOT_Project
 ##FSM:
-![fsm](https://imgur.com/n7iFLqi)
+![fsm](https://i.imgur.com/n7iFLqi.png)
 ##How To Run?
 
 ###Communication with teleBot:
