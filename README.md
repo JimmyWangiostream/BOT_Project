@@ -1,6 +1,6 @@
 # BOT_Project
 ##FSM:
-![mahua](https://imageshack.com/i/poGBk2KFp)
+![mahua](<blockquote class="imgur-embed-pub" lang="en" data-id="n7iFLqi"><a href="//imgur.com/n7iFLqi">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 ##How To Run?
 
 ###Communication with teleBot:
