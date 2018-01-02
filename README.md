@@ -1,9 +1,9 @@
 # BOT_Project
 ## FSM:
 ![fsm](https://i.imgur.com/n7iFLqi.png)
-## How To Run?
 
-### Communication with teleBot:
+
+###  How To Communication with teleBot?
 commandline => **python3 app.py**
 打開telebot 應用程式 搜尋 "GoGgMenubot" 即可與teleBot對話囉!
 
