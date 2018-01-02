@@ -141,11 +141,13 @@ def messageHandler(Update):
         machine.trigger('gophone');
     elif text!='/start' and machine.state=='phone':
         machine.trigger('gofinish');
+    print("Message From User:");
     print(text);
+    print("State:");
     print(machine.state);
 
     if machine.state=='hasperson':
-        bot.sendMessage(user_id, '蛋蛋漢堡您好 點餐請輸入 order 觀看菜單請輸入 menu 欲知最新活動消息請輸入 news 重來請輸入 /start');
+        bot.sendMessage(user_id, '蛋蛋漢堡您好 點餐請輸入 order 觀看菜單請輸入 menu 欲知店家消息請輸入 news 重來請輸入 /start');
     elif machine.state=='menu':
         bot.sendPhoto(user_id,'http://home.so-net.net.tw/ywc580510/images/dmall.jpg');
     elif machine.state=='order':
@@ -161,7 +163,8 @@ def messageHandler(Update):
     elif machine.state=='finish':
         bot.sendMessage(user_id,'完成訂購 歡迎下次光臨');
         machine.trigger('goback');        
-        bot.sendMessage(user_id, '蛋蛋漢堡您好 點餐請輸入 order 觀看菜單請輸入 menu 欲知最新活動消息請輸入 news 重來請輸入 /start');
+        bot.sendMessage(user_id, '蛋蛋漢堡您好 點餐請輸入 order 觀看菜單請輸入 menu 欲知店家消息請輸入 news 重來請輸入 /start');
+        print("State:");
         print(machine.state);
     return;
 
